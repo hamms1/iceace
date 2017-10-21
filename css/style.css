@@ -1,0 +1,742 @@
+/*общие стили*/
+
+@font-face {
+	font-family: "FuturaPT";
+	src: url("../fonts/FuturaPT/FuturaPT-Medium.woff2") format("woff2"),
+	url("../fonts/FuturaPT/FuturaPT-Medium.woff") format("woff"),
+	url("../fonts/FuturaPT/FuturaPT-Medium.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 500;	
+}
+
+@font-face {
+	font-family: "FuturaPT";
+	src: url("../fonts/FuturaPT/FuturaBold.woff2") format("woff2"),
+	url("../fonts/FuturaPT/FuturaBold.woff") format("woff"),
+	url("../fonts/FuturaPT/FUTURABOLD.ttf") format("ttf");
+	font-style: bold;
+	font-weight: 700;	
+}
+
+@font-face {
+	font-family: "FuturaPT";
+	src: url("../fonts/FuturaPT/FuturaPT-Book.woff2") format("woff2"),
+	url("../fonts/FuturaPT/FuturaPT-Book.woff") format("woff"),
+	url("../fonts/FuturaPT/FuturaPT-Book.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 600;	
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 15px;
+	line-height: 1.4;	
+	margin: 0;
+}
+
+
+body {
+	min-width: 1160px;
+}
+
+h2 {
+	font-family: "FuturaPT"; 
+	font-weight: 700;
+	line-height: 35px;
+}
+
+p {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+	padding: 13px 13px 10px 13px;
+	font-weight: bold;
+	color: #74e196;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #74e196;
+	color: #fff;
+}
+
+nav, .button {
+	font-family: "FuturaPT";
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.button-black {
+	border: 2px solid #000;
+}
+
+a {
+	color: #000;
+	font-family: "FuturaPT"; 
+}
+
+header, footer {
+	font-family: "FuturaPT"; 
+}
+
+/*промо блок*/
+
+.promo {
+	font-family: "FuturaPT"; 
+	padding-top: 100px;
+	padding-bottom: 350px;
+	background-image: url(../img/promo-bg.jpg);
+	color: #fff;
+	background-size: cover;
+	background-position: center bottom;
+	text-align: left;
+}
+
+.promo h1 {
+	font-size: 50px;
+	line-height: 50px;
+}
+
+.promo span {
+	font-size: 38px;
+	line-height: 40px;
+	margin-top: 20px;
+	display: block;
+	font-weight: normal;
+}
+
+h2.title {
+	font-size: 40px;
+	text-align: center;
+}
+
+h3.subtitle {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+	font-family: "FuturaPT";  
+	line-height: 1.4;
+}
+
+/*хедер*/
+
+.logo img {
+	width: 160px;
+	height: 55px;
+}
+
+
+header a{
+	text-decoration: none;
+}
+
+
+header .logo {
+	float: left;	
+	margin-top: 45px;
+	margin-right: 20px;
+} 
+
+header nav {
+	float: left;
+	margin-top: 65px;
+}
+
+.menu-top a {
+	padding-bottom: 3px;
+}
+
+.menu-top a:hover {
+	border-bottom: 3px solid #74e196;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+nav li {
+	margin: 0 20px;
+	float: left;
+	list-style-type: none;
+}
+
+header .phone-link{
+	float: left;
+	margin-top: 61px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 22px;
+	margin-left: 40px;
+}
+
+
+header .button{
+	text-align: center;
+	float: right;
+	width: 135px;
+	margin-top: 48px;
+}
+
+
+/*блок наши услуги*/
+
+.services {
+	padding-top: 35px;
+}
+
+.services-item-vertical {
+	width: 360px;
+	float: left;
+	margin-right: 40px;
+}
+
+.services-item-horizontal {
+	width: 760px;
+	float: left;
+}
+
+.services-item-horizontal .services-visual {
+	margin-right: 40px;
+} 
+
+.services h3 {
+	margin-top: -7px;
+	margin-bottom: 20px;
+}
+
+.services-desс-title {
+	padding: 25px 0 32px 0;
+	line-height: 35px;
+	font-family: "FuturaPT"; 
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.services-meta-title {
+	line-height: 35px;
+	font-family: "FuturaPT"; 
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.services p {
+	padding-right: 20px;
+}
+	
+.services-item {
+	width: 100%;
+}
+
+.services-visual {
+	width: 360px;
+	height: 240px;
+	float: left;
+	margin-bottom: 40px;
+}
+
+.services-visual img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; 
+}
+
+.services-desc {	
+	width: 360px;
+	float: left;
+}
+
+.services-meta {
+	float: left;
+	width: 100%;
+	padding: 45px 0 0 0;
+	font-style: "FuturaPT"; 
+	font-size: 30px;
+}
+
+.services-meta p{
+	font-size: 20px;
+	font-weight: 500;
+	float: left;
+}
+
+.services-meta a{
+	width: 31px;
+	float: right;
+	position: relative;
+}
+
+.icon {	
+	display: inline-block;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	position: absolute;
+
+}
+
+.arrow {
+    background-position: -5px -5px;
+	width: 31px;
+	height: 31px;
+}
+
+
+/*блок почему мы - преимущества*/
+
+.adventeges {
+	padding-top: 75px;
+}
+
+.adventeges-item {
+	min-height: 323px;
+	font-style: "FuturaPT"; 
+	width: 348px;
+	text-align: center;
+	padding-bottom: 50px;
+	float: left;	
+}
+
+.adventeges-item:nth-child(3n+3):after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.adventeges-item:before {
+	margin: auto;
+	content: '';
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;	
+	width: 80px;
+	height: 80px;
+	display: block;
+}
+
+.adventeges-item-letter {
+	margin: 0 50px 0 50px;
+}
+
+.adventeges-item-secure {
+	margin: 0 50px 0 50px;
+}
+
+.adventages-list {
+	padding: 40px 0 20px 0;
+}
+
+.adventeges-item-like:before {
+    background-position: -226px -5px;
+}
+
+.adventeges-item-letter:before {
+ 
+    background-position: -95px -137px;
+}
+
+.adventeges-item-calendar:before {
+    
+    background-position: -136px -5px;
+}
+
+.adventeges-item-inventar:before {
+    
+    background-position: -5px -137px;
+}
+
+.adventeges-item-secure:before {
+    
+    background-position: -185px -95px;
+}
+
+.adventeges-item-bus:before {
+    background-position: -46px -5px;
+}
+
+.adventeges-item h3.subtitle {
+	padding: 30px 0 27px 0;
+	text-align: center;
+	font-family: "FuturaPT"; 
+	line-height: 26px;
+}
+
+.adventeges-item p.tagline {
+	text-align: left;
+}
+
+/*скидки*/
+
+.discount {
+	position: relative;
+	padding: 45px 0;
+	background-image: url(../img/discount-bg.jpg);
+	color: #fff;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.discount:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: 1;
+}
+
+.discount .container {
+	position: relative;
+	z-index: 2;
+}
+
+
+.subtitle-white {
+	font-size: 22px;
+	font-family: "FuturaPT"; 
+	
+	padding-bottom: 21px;
+}
+
+.common-text-white {
+	font-family: "FuturaPT"; 
+	
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.title-white {
+	color: #fff;
+}
+
+.green-text {
+	font-style: "FuturaPT";
+	font-weight: 600;
+	font-size: 20px;
+	color: #74e196;
+}
+
+.discount-list {
+	padding: 36px 0 40px 0;
+}
+
+.discount-item {
+	float: left;
+	width: 33.33%;
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.button-white {
+	clear: both;
+	display: block;
+	border: 2px solid #fff;
+	margin: 0 0 40px 0;
+	margin: auto;
+	width: 150px;
+}
+
+.button-white:hover {
+	border-color: #fff;
+}
+
+/*команда*/
+.command {
+	background-image: url(../img/command.gif);
+	background-repeat: no-repeat;
+	background-position: center 150px; 
+}
+
+.command .container {
+	padding-top: 73px;
+	text-align: center;
+	position: relative;
+	min-height: 700px;
+}
+
+.command .tagline {
+	display: block;
+	width: 750px;
+	margin: auto;
+	margin-top: 450px;
+}
+
+.command .button.button-black {
+	margin: 0 auto;
+	width: 190px;
+	display: block;
+	border: 2px solid #000;
+	margin-top: 65px;
+}
+
+
+
+/*сообщество*/
+
+.community {
+	text-align: center;
+	font-size: 15px;
+	padding:72px 0 103px 0;
+}
+
+.community p {
+	padding:40px 0;
+	width: 750px;
+	margin: 0 auto ;
+}
+
+
+/*менторы*/
+
+.mentors {
+	font-size: 0;
+	padding-bottom: 86px;
+}
+
+.mentors-list {
+	padding-top: 42px;
+}
+
+.mentors .item {
+	width: 180px;
+	height: 180px;
+	margin: 0 8px 0 8px;
+	float: left;
+}
+
+.mentors img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.mentors .item:first-child {
+	margin-left: 0;
+}
+
+.mentors .item:last-child {
+	margin-right: 0;
+}
+
+
+/*выбрать программу*/
+
+.program .container {
+	padding-top: 45px;
+}
+
+table {
+	text-align: left;
+	border-collapse: collapse;
+	margin-top: 30px;
+}
+
+th {
+	font-family: 'FuturaPT';
+	font-weight: 500;
+	font-size: 20px;
+	padding: 15px 0;
+}
+
+td {
+	font-family: 'PT Sans', sans-serif;
+	padding: 15px 0 15px 15px;
+	border: 2px solid #000;
+}
+
+.column-sport {
+	width: 157px;
+}
+	
+.column-instructor {
+	width: 301px;
+}
+
+.column-date {
+	width: 155px;
+}
+
+.column-time {
+	width: 155px;
+}
+
+.column-price {
+	width: 155px;
+}
+
+.column-enroll {
+	text-align: center;
+	width: 235px;
+	padding-left: 0;
+}
+
+.column-enroll a:hover {
+	color: #74e196;
+	background-color: #fff;
+}
+
+/* футер*/
+
+footer {
+	background-image: url(../img/footer-bg.jpg);
+	background-size: cover;
+	background-position: center -200px;
+	background-repeat: no-repeat;
+}
+
+.footer-top {
+	padding-top: 60px;
+}
+
+.footer-bottom {
+	padding-top: 50px;	
+}
+
+
+footer .logo {
+	float: left;
+	margin-right: 270px;
+}
+
+.phone-bottom {
+	margin-top: 5px;
+	width: 200px;
+	float: right;
+}
+
+.phone-bottom .phone-link {
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.phone-bottom .mail {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer .link-social {
+	width: 248px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+}
+
+footer .icon {
+	width: 32px;
+	height: 32px;
+	object-fit: none;
+	margin-left: 0;
+	float: left;
+	position: absolute;
+
+}
+
+.youtube {
+	background-position: -275px -179px;
+	top: 14px;
+	left: 0px;
+}
+
+.youtube:hover {
+	background-position: -185px -221px;
+}
+
+.youtube:active {
+	background-position: -275px -179px;
+}
+
+.instagram {
+	background-position: -89px -95px;
+	top: 14px;
+	left: 72px;
+}
+
+.instagram:hover {
+	background-position: -131px -95px;
+}
+
+.instagram:active {
+	background-position: -89px -95px;
+}
+
+.facebook {
+	background-position: -5px -95px;
+	top: 14px;
+	left: 144px;
+}
+
+.facebook:hover {
+	background-position: -47px -95px;
+}
+
+.facebook:active {
+	background-position: -5px -95px;
+}
+
+.vk {
+	background-position: -275px -95px;
+	top: 14px;
+	left: 216px;
+}
+
+.vk:hover {
+	background-position: -275px -137px;
+}
+
+.vk:active {
+	background-position: -275px -95px;
+}
+
+.copyrighted {
+	font-family: "FuturaPT"; 
+	float: left;
+	width: 300px;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.footer-bottom nav{
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+footer ul {
+	width: 547px;
+}
+
+.menu-bottom {
+	float: right;
+}
+
+.menu-bottom a{
+	text-decoration: none;
+}
+
+.menu-bottom a:hover {
+	color: #434343;
+}
