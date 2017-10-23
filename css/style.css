@@ -51,6 +51,7 @@ p {
 	font-family: 'PT Sans', sans-serif;
 }
 
+
 .container {
 	width: 1160px;
 	margin: 0 auto;
@@ -135,25 +136,26 @@ h3.subtitle {
 
 /*хедер*/
 
-.logo img {
-	width: 160px;
-	height: 55px;
-}
-
-
 header a{
 	text-decoration: none;
 }
 
+.logo img {
+	width: 100%;
+	height: 100%;
+}
 
 header .logo {
-	float: left;	
+	float: left;
+	width: 160px;
+	height: 55px;
 	margin-top: 45px;
 	margin-right: 20px;
 } 
 
 header nav {
 	float: left;
+	width: 547px;
 	margin-top: 65px;
 }
 
@@ -304,6 +306,12 @@ header .button{
 	padding-top: 75px;
 }
 
+.adventages-top, .adventages-bottom {
+	width: 100%;
+}
+
+
+
 .adventeges-item {
 	min-height: 323px;
 	font-style: "FuturaPT"; 
@@ -311,12 +319,6 @@ header .button{
 	text-align: center;
 	padding-bottom: 50px;
 	float: left;	
-}
-
-.adventeges-item:nth-child(3n+3):after {
-	content: '';
-	display: table;
-	clear: both;
 }
 
 .adventeges-item:before {
@@ -437,6 +439,7 @@ header .button{
 }
 
 .discount-list {
+	width: 100%;
 	padding: 36px 0 40px 0;
 }
 
@@ -616,6 +619,8 @@ footer {
 
 
 footer .logo {
+	width: 160px;
+	height: 55px;
 	float: left;
 	margin-right: 270px;
 }
