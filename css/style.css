@@ -269,7 +269,7 @@ header .button{
 	float: left;
 	width: 100%;
 	padding: 45px 0 0 0;
-	font-style: "FuturaPT"; 
+	font-family: "FuturaPT"; 
 	font-size: 30px;
 }
 
@@ -314,7 +314,7 @@ header .button{
 
 .adventeges-item {
 	min-height: 323px;
-	font-style: "FuturaPT"; 
+	font-family: "FuturaPT"; 
 	width: 348px;
 	text-align: center;
 	padding-bottom: 50px;
@@ -432,7 +432,7 @@ header .button{
 }
 
 .green-text {
-	font-style: "FuturaPT";
+	font-family: "FuturaPT";
 	font-weight: 600;
 	font-size: 20px;
 	color: #74e196;
