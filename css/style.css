@@ -625,8 +625,7 @@ footer .logo {
 	margin-right: 270px;
 }
 
-.phone-bottom {
-	margin-top: -55px;
+.phone-bottom {	
 	width: 200px;
 	float: right;
 }
@@ -645,7 +644,6 @@ footer .logo {
 
 footer .link-social {
 	width: 248px;
-	height: 60px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -731,7 +729,7 @@ footer .icon {
 }
 
 footer ul {
-	width: 547px;
+	width: 549px;
 }
 
 .menu-bottom {
