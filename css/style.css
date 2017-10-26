@@ -209,6 +209,10 @@ header .button{
 	margin-right: 40px;
 }
 
+.services-item-vertical .services-desc {
+	padding-top: 40px;
+}
+
 .services-item-horizontal {
 	width: 760px;
 	float: left;
@@ -217,6 +221,10 @@ header .button{
 .services-item-horizontal .services-visual {
 	margin-right: 40px;
 } 
+
+.services-item-horizontal .services-item:first-child {
+	padding-bottom: 40px;
+}
 
 .services h3 {
 	margin-top: -7px;
@@ -251,7 +259,6 @@ header .button{
 	width: 360px;
 	height: 240px;
 	float: left;
-	margin-bottom: 40px;
 }
 
 .services-visual img {
@@ -313,7 +320,6 @@ header .button{
 
 
 .adventeges-item {
-	min-height: 323px;
 	font-family: "FuturaPT"; 
 	width: 348px;
 	text-align: center;
