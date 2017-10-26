@@ -649,25 +649,27 @@ footer .logo {
 }
 
 footer .link-social {
-	width: 248px;
-	margin: 0 auto;
-	position: relative;
+	width: 288px;
+	float: left;
 }
 
 footer .icon {
+	margin: 0 40px;
 	width: 32px;
 	height: 32px;
 	object-fit: none;
 	margin-left: 0;
-	float: left;
-	position: absolute;
+	position: relative;
+}
 
+.icon:last-child {
+	margin-right: 0;
 }
 
 .youtube {
 	background-position: -275px -179px;
 	top: 14px;
-	left: 0px;
+	
 }
 
 .youtube:hover {
@@ -681,7 +683,7 @@ footer .icon {
 .instagram {
 	background-position: -89px -95px;
 	top: 14px;
-	left: 72px;
+	
 }
 
 .instagram:hover {
@@ -695,7 +697,7 @@ footer .icon {
 .facebook {
 	background-position: -5px -95px;
 	top: 14px;
-	left: 144px;
+	
 }
 
 .facebook:hover {
@@ -709,7 +711,7 @@ footer .icon {
 .vk {
 	background-position: -275px -95px;
 	top: 14px;
-	left: 216px;
+	
 }
 
 .vk:hover {
