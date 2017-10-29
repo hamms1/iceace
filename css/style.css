@@ -51,7 +51,9 @@ p {
 	font-family: 'PT Sans', sans-serif;
 }
 
+.active-btn {
 
+}
 .container {
 	width: 1160px;
 	margin: 0 auto;
@@ -188,14 +190,12 @@ header .phone-link{
 	margin-left: 40px;
 }
 
-
 header .button{
 	text-align: center;
 	float: right;
 	width: 135px;
 	margin-top: 48px;
 }
-
 
 /*блок наши услуги*/
 
@@ -317,14 +317,17 @@ header .button{
 	width: 100%;
 }
 
-
-
 .adventeges-item {
+	min-height: 350px;
 	font-family: "FuturaPT"; 
 	width: 348px;
 	text-align: center;
 	padding-bottom: 50px;
-	float: left;	
+	float: left;
+}
+
+.adventeges-item:nth-child(3n+1) {
+	clear: both;
 }
 
 .adventeges-item:before {
@@ -605,6 +608,93 @@ td {
 	color: #74e196;
 	background-color: #fff;
 }
+/*подробно о программе */
+
+.program-item {
+	border: 2px solid #000;
+	margin-top: 36px;
+	padding-top: 51px;
+}
+
+.program-avatar {
+	width: 357px;
+	padding: 0  0 111px 58px;
+	float: left;
+}
+
+.program-desc {
+	width: 500px;
+	float: left;
+}
+
+.program-item .common-text {
+	line-height: 22px;
+}
+
+.program-title {
+	font-family: "FuturaPT";
+	font-size: 30px;
+}
+
+.program-item h4 {
+	margin: 20px 0 10px 0;
+	font-family: "FuturaPT";
+	font-size: 20px;
+}
+.common-text.text {
+	margin-bottom: 30px;
+}
+
+.show-more a {
+	text-decoration: none;
+}
+
+.show-more {
+	width: 100px;
+	padding-bottom: 3px;
+	border-bottom: 3px solid #74e196;
+}
+
+.program-meta {
+	padding-left: 100px;
+	width: 250px;
+	float: left;
+	font-family: "FuturaPT";
+}
+
+.program-meta a {
+	display: inline-block;
+	padding-bottom: 3px;
+	padding: 12px 35px 10px 35px;
+}
+
+.program-price {
+	display: inline-block;
+	font-size: 30px;
+	text-align: center;
+}
+
+.program-pagination {
+	padding-top: 17px;
+	margin: 0 auto;
+	width: 170px;
+}
+
+.program-pagination-item {
+	list-style-type: none;
+	font-size: 20px;
+	float: left;
+}
+
+.program-pagination-item a {
+	text-decoration: none;
+	font-size: 20px;	
+	padding: 0 3px 0 3px;
+}
+
+.program-pagination-item-active {
+	color: #74e196;
+}
 
 /* футер*/
 
@@ -625,15 +715,16 @@ footer {
 
 
 footer .logo {
-	width: 160px;
+	padding-right: 140px;
+	width: 300px;
 	height: 55px;
 	float: left;
-	margin-right: 270px;
 }
 
 .phone-bottom {	
-	width: 200px;
+	width: 300px;
 	float: right;
+	text-align: right;
 }
 
 .phone-bottom .phone-link {
@@ -649,8 +740,9 @@ footer .logo {
 }
 
 footer .link-social {
-	width: 288px;
+	width: 560px;
 	float: left;
+	text-align: center;
 }
 
 footer .icon {
@@ -669,7 +761,6 @@ footer .icon {
 .youtube {
 	background-position: -275px -179px;
 	top: 14px;
-	
 }
 
 .youtube:hover {
@@ -683,7 +774,6 @@ footer .icon {
 .instagram {
 	background-position: -89px -95px;
 	top: 14px;
-	
 }
 
 .instagram:hover {
@@ -697,7 +787,6 @@ footer .icon {
 .facebook {
 	background-position: -5px -95px;
 	top: 14px;
-	
 }
 
 .facebook:hover {
@@ -710,8 +799,7 @@ footer .icon {
 
 .vk {
 	background-position: -275px -95px;
-	top: 14px;
-	
+	top: 14px;	
 }
 
 .vk:hover {
@@ -736,11 +824,12 @@ footer .icon {
 	padding-bottom: 100px;
 }
 
-footer ul {
-	width: 549px;
+footer li {
+	float: right;
 }
 
 .menu-bottom {
+	width: 860px;
 	float: right;
 }
 
